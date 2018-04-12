@@ -60,8 +60,20 @@
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A devil mask" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uGB-o9-yWU">
                                 <rect key="frame" x="10" y="578.5" width="355" height="38.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Birth Year: 2013" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XAh-gJ-LVo">
+                                <rect key="frame" x="126.5" y="527.5" width="122" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Category: Transportation" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ctJ-qm-gy6">
+                                <rect key="frame" x="91.5" y="476.5" width="192" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -70,12 +82,18 @@
                             <constraint firstItem="Vc3-oh-duK" firstAttribute="bottom" secondItem="uGB-o9-yWU" secondAttribute="bottom" constant="50" id="13D-Dx-FXf"/>
                             <constraint firstItem="uGB-o9-yWU" firstAttribute="leading" secondItem="Vc3-oh-duK" secondAttribute="leading" constant="10" id="2RV-5R-gJR"/>
                             <constraint firstItem="E71-nZ-cM8" firstAttribute="centerX" secondItem="qAm-OV-kyt" secondAttribute="centerX" id="3XU-Mm-Gd8"/>
+                            <constraint firstItem="XAh-gJ-LVo" firstAttribute="centerX" secondItem="qAm-OV-kyt" secondAttribute="centerX" id="6tw-Zg-xF8"/>
                             <constraint firstItem="Vc3-oh-duK" firstAttribute="trailing" secondItem="uGB-o9-yWU" secondAttribute="trailing" constant="10" id="9Ra-nd-x6C"/>
+                            <constraint firstItem="uGB-o9-yWU" firstAttribute="top" secondItem="XAh-gJ-LVo" secondAttribute="bottom" constant="30" id="Ol8-jG-41X"/>
+                            <constraint firstItem="ctJ-qm-gy6" firstAttribute="centerX" secondItem="qAm-OV-kyt" secondAttribute="centerX" id="RaK-Z1-kdt"/>
                             <constraint firstItem="E71-nZ-cM8" firstAttribute="top" secondItem="Vc3-oh-duK" secondAttribute="top" constant="20" id="jR2-u5-vpY"/>
+                            <constraint firstItem="XAh-gJ-LVo" firstAttribute="top" secondItem="ctJ-qm-gy6" secondAttribute="bottom" constant="30" id="q1h-Fz-TmP"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Vc3-oh-duK"/>
                     </view>
                     <connections>
+                        <outlet property="birthLabel" destination="XAh-gJ-LVo" id="nBe-ba-wWN"/>
+                        <outlet property="categoryLabel" destination="ctJ-qm-gy6" id="v8m-He-zAa"/>
                         <outlet property="emojiDefinitionLabel" destination="uGB-o9-yWU" id="3JN-fE-89K"/>
                         <outlet property="emojiLabel" destination="E71-nZ-cM8" id="2K4-QA-RUV"/>
                     </connections>

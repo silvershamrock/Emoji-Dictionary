@@ -11,27 +11,20 @@ import UIKit
 class GiantViewController: UIViewController {
     
     @IBOutlet weak var emojiLabel: UILabel!
-    
     @IBOutlet weak var emojiDefinitionLabel: UILabel!
+    @IBOutlet weak var birthLabel: UILabel!
+    @IBOutlet weak var categoryLabel: UILabel!
     
-    var emoji = ""
+    var emoji = Emoji()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        emojiLabel.text = emoji
+        emojiLabel.text = emoji.theEmoji
+        emojiDefinitionLabel.text = emoji.def
+        birthLabel.text = "Birth Year: \(emoji.birthYear)"
+        categoryLabel.text = "Category: \(emoji.category)"
         
-        if emoji=="👹" {
-            emojiDefinitionLabel.text = "A devilish mask from Africa"
-        } else if emoji=="⚰️" {
-            emojiDefinitionLabel.text = "A vampire's coffin with flowers"
-        } else if emoji=="👁" {
-            emojiDefinitionLabel.text = "A monstrous eye that reads minds"
-        } else if emoji=="💀" {
-            emojiDefinitionLabel.text = "A corpse, a dead body"
-        } else if emoji=="😃" {
-            emojiDefinitionLabel.text = "That face you make when someone dies"
-        }
     }
     
 }

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F809566C207EAC1F00668582 /* GiantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F809566B207EAC1F00668582 /* GiantViewController.swift */; };
+		F88EB6F2207ED6E40095C586 /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88EB6F1207ED6E40095C586 /* Emoji.swift */; };
 		F8CE91F2207E90C4007DED77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CE91F1207E90C4007DED77 /* AppDelegate.swift */; };
 		F8CE91F7207E90C4007DED77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8CE91F5207E90C4007DED77 /* Main.storyboard */; };
 		F8CE91F9207E90C6007DED77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8CE91F8207E90C6007DED77 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		F809566B207EAC1F00668582 /* GiantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiantViewController.swift; sourceTree = "<group>"; };
+		F88EB6F1207ED6E40095C586 /* Emoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji.swift; sourceTree = "<group>"; };
 		F8CE91EE207E90C4007DED77 /* Emoji Dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Emoji Dictionary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8CE91F1207E90C4007DED77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8CE91F6207E90C4007DED77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				F8CE91F1207E90C4007DED77 /* AppDelegate.swift */,
 				F8CE9203207E9333007DED77 /* EmojiTableViewController.swift */,
 				F8CE91F5207E90C4007DED77 /* Main.storyboard */,
+				F88EB6F1207ED6E40095C586 /* Emoji.swift */,
 				F809566B207EAC1F00668582 /* GiantViewController.swift */,
 				F8CE91F8207E90C6007DED77 /* Assets.xcassets */,
 				F8CE91FA207E90C6007DED77 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				F8CE9204207E9333007DED77 /* EmojiTableViewController.swift in Sources */,
 				F8CE91F2207E90C4007DED77 /* AppDelegate.swift in Sources */,
+				F88EB6F2207ED6E40095C586 /* Emoji.swift in Sources */,
 				F809566C207EAC1F00668582 /* GiantViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
